@@ -1,0 +1,58 @@
+@font-face{
+    font-family: pop;
+    src:url(Poppins-Regular.ttf);
+}
+
+header{
+    width: 100%;
+    background-color: #1d3174;
+    height:268px;
+    position: fixed;
+    z-index:10;
+
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu #reg{
+    float: left;
+    padding-top:100px;
+
+}
+
+#menu #reg a{
+    margin-left: 190px;
+background-color: #1d3174;
+color: #ffffff;
+padding: 10px 12px;
+font-size: 18px;
+text-decoration: none;
+letter-spacing: 1px;
+display: block;
+}
+
+#menu #desple{
+    display: none;
+    position: absolute;
+    min-width:246px;
+}
+
+#menu #reg a:hover{
+    background: #a0811d;
+}
+
+#menu #reg:hover #desple{
+    display: block;
+}
+
+.tabla{
+    padding-top: 280px;
+    margin-left: 280px;
+    font-size: 15px;
+}
+.tablas1{
+    font-weight: bold;
+    color: #ffffff;
+}

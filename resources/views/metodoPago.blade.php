@@ -1,0 +1,64 @@
+@extends('plantilla')
+
+@section('seccion')
+    <table style="background: white;" width="822" class="borde" align="center" cellpadding="6" cellspacing="6">
+    
+      <tbody><tr>
+        <td height="89" valign="middle" background="img/pre.png">&nbsp;</td>
+    </tr>
+      <tr>
+        <td><table width="592" align="center" cellpadding="4" cellspacing="4" class="style2">
+        
+           <tbody><tr><td height="18" colspan="3" bgcolor="#cda218" class="style1"><div align="center">
+              <p style="color:rgb(255, 255, 255); font-size: 20px; letter-spacing: 1px;" ; =""><strong>Formas de pago</p></strong>
+            </div>          <div align="center"></div></td>
+          </tr>
+          <tr height="53">
+            <td colspan="3">
+            <div align="LEFT"><strong>Precio de inscripción al curso $1,200 </strong>
+            <ol type="a">
+      <li>Por depósito bancario sólo en efectivo Bancos participantes: <strong>Scotiabank No. Cuenta: xxxx xxxx xxxx xxxx, 
+        <br>
+        <img src="img/images.png">  
+        <br><br>Santander No. Cuenta: xxxx xxxx xxxx xxxx</li></strong>
+        <img src="img/santan.png">
+          <br><br>
+    <li>Mediante tarjeta de débito o crédito <strong>(a excepción de American Express, Maestro y Diners Club)</strong></li>
+    <img src="img/amer.png"> &nbsp; <img src="img/master.png"> &nbsp; <img src="img/diners.jpg">
+    <br><br>
+    <li>Depósito en OXXO - Santander No. Cuenta: xxxx xxxx xxxx xxxx</li>
+    <img src="img/oxxo.png">
+    <br>
+    <li>Cajas de la Facultad</li>
+    <strong>Consulta los horarios correspondientes</strong>
+    <br>
+    <li>Pay Pal</li>
+    <img src="img/paypal.png">
+    </ol></div></td>
+             </tr><tr height="40">
+            <td height="40" colspan="4" bgcolor="#001e61" class="style1" style="color:#FFFFFF";><div align="center">La Facultad se reserva el derecho de cancelar el evento que           no reúna el mínimo de participantes</div></td>
+          </tr>
+     
+          <tr height="53">
+            <td width="117" height="18" bgcolor="#cda218" class="style1">&nbsp;</td>
+            
+            <td width="456" bgcolor="#cda218" class="style1"><div align="center"></div></td>
+            
+            <td width="83" bgcolor="#cda218" class="style1"><div align="center"><a href="{{ route('plan') }}" class="style1" target="_blank"></a><a href="{{ route('plan') }}" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','img/VOLVER_ROLLOVER.png',1)"><img src="http://dec.fca.unam.mx/img/VOLVER_NORMAL.png" name="Image1" width="64" height="64" id="Image1"></a><br>
+    Regresar</div></td>
+          </tr>
+          
+          
+        </tbody></table>
+        
+        
+          <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    </td></tr></tbody></table>
+@endsection

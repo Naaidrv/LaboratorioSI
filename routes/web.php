@@ -11,6 +11,22 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('contacto', 'PageController@contacto' )->name('contacto');
+
+Route::get('nosotros', 'PageController@nosotros' )->name('nosotros');
+
+Route::get('cursos', 'PageController@cursos' )->name('cursos');
+
+Route::get('cursosExternos', 'PageController@cursosExt' )->name('cursosExt');
+
+Route::get('/', 'PageController@inicio' )->name('inicio');
+
+
+
+Auth::routes();
+
+Route::get('planCurso', 'HomeController@planCurso')->name('plan');
+
+Route::get('metodoPago', 'HomeController@metodoPago')->name('pago');
+
+Route::get('/home', 'HomeController@index')->name('home');
